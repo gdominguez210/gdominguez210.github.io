@@ -3,11 +3,25 @@ section.resume-section {
   padding-bottom: 5rem !important;
   max-width: 75rem;
   .resume-item {
-    .resume-content {}
+    .resume-content {
+    }
     .resume-date {
       min-width: none;
     }
   }
+}
+h2.mb-5 {
+  position: relative;
+}
+h2.mb-5:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 5rem;
+  display: block;
+  height: 0.4rem;
+  background: lighten($primary, 15%);
 }
 @media (min-width: 768px) {
   section.resume-section {

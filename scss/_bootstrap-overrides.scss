@@ -1,5 +1,15 @@
 .bg-primary {
-  background-color: $primary !important;
+  background: -moz-linear-gradient(
+    -45deg,
+    $primary 0%,
+    darken($primary, 15%) 100%
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    $primary 0%,
+    darken($primary, 15%) 100%
+  );
+  background: linear-gradient(135deg, $primary 0%, darken($primary, 15%) 100%);
 }
 
 .text-primary {
