@@ -75,10 +75,6 @@ p.lead {
   background-color: #1f7ee4;
 }
 
-.dev-icons {
-  font-size: 3rem;
-}
-
 .dev-icons .list-inline-item i:hover {
   color: #1f7ee4;
 }
@@ -264,6 +260,35 @@ section#skills .col-4 {
 .icon-postgresql:before {
   content: "\e902";
   font-family: "Icomoon";
+}
+
+li.list-inline-item {
+  align-items: center;
+  text-align: center;
+}
+
+li.list-inline-item p {
+  margin: 0px;
+  font-size: 1.2em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #343a40;
+  font-weight: bold;
+}
+
+li.list-inline-item {
+  width: 13%;
+  margin: 0px !important;
+  padding: 10px;
+}
+
+.dev-icons i {
+  font-size: 3em;
+}
+
+ul.list-inline.dev-icons {
+  margin: 0px -10px;
 }
 
 @font-face {
