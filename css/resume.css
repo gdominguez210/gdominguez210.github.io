@@ -97,7 +97,7 @@ p.lead {
     left: 0;
     display: flex;
     flex-direction: column;
-    border-right: 0.5rem solid #efac49;
+    border-right: 0.5rem solid #559ad3;
     width: 25rem;
     height: 100vh;
   }
@@ -187,9 +187,7 @@ a:hover, a:focus, a:active {
 }
 
 #sideNav .navbar-brand .img-profile {
-  box-shadow: -15px -15px 0px rgba(255, 255, 255, 0.2);
-  z-index: 1;
-  position: relative;
+  width: 100%;
 }
 
 img {
@@ -198,17 +196,6 @@ img {
 
 span.d-none.d-lg-block {
   position: relative;
-}
-
-span.d-none.d-lg-block:after {
-  position: absolute;
-  content: "";
-  background: rgba(0, 0, 0, 0.2);
-  width: 100%;
-  height: 100%;
-  right: -15px;
-  bottom: -7px;
-  z-index: 0;
 }
 
 a.navbar-brand.js-scroll-trigger {
@@ -299,7 +286,7 @@ h2.mb-5:after {
   width: 5rem;
   display: block;
   height: 0.4rem;
-  background: #efac49;
+  background: #559ad3;
 }
 
 ul.list-inline.dev-icons {

@@ -5,10 +5,13 @@
 @import "resume-item.scss";
 @import "bootstrap-overrides.scss";
 
+// #sideNav .navbar-brand .img-profile {
+//   box-shadow: -15px -15px 0px rgba(255, 255, 255, 0.2);
+//   z-index: 1;
+//   position: relative;
+// }
 #sideNav .navbar-brand .img-profile {
-  box-shadow: -15px -15px 0px rgba(255, 255, 255, 0.2);
-  z-index: 1;
-  position: relative;
+  width: 100%;
 }
 img {
   max-width: 100%;
@@ -17,16 +20,16 @@ span.d-none.d-lg-block {
   position: relative;
 }
 
-span.d-none.d-lg-block:after {
-  position: absolute;
-  content: "";
-  background: rgba(0, 0, 0, 0.2);
-  width: 100%;
-  height: 100%;
-  right: -15px;    
-  bottom: -7px;
-  z-index: 0;
-}
+// span.d-none.d-lg-block:after {
+//   position: absolute;
+//   content: "";
+//   background: rgba(0, 0, 0, 0.2);
+//   width: 100%;
+//   height: 100%;
+//   right: -15px;
+//   bottom: -7px;
+//   z-index: 0;
+// }
 
 a.navbar-brand.js-scroll-trigger {
   margin-bottom: 50px;
@@ -106,7 +109,7 @@ h2.mb-5:after {
   width: 5rem;
   display: block;
   height: 0.4rem;
-  background: $yellow;
+  background: $lightblue;
 }
 
 ul.list-inline.dev-icons {

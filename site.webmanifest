@@ -1,0 +1,20 @@
+{
+    "name": "Gary Dominguez - Software Engineer",
+    "short_name": "Gary Dominguez - Software Engineer",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png?v=pglkK40jle",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png?v=pglkK40jle",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "start_url": "https://garydominguez.com/",
+    "display": "standalone"
+}
