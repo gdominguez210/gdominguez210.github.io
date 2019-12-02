@@ -115,6 +115,61 @@ h2.mb-5:after {
 ul.list-inline.dev-icons {
   margin: 0px -10px;
 }
+@media (max-width: 991px) {
+  #sideNav .navbar-brand .img-profile {
+    max-width: 150px;
+  }
+
+  a.navbar-brand.js-scroll-trigger {
+    margin: 0px;
+  }
+}
+@media (max-width: 768px) {
+  li.list-inline-item {
+    width: 20%;
+
+    flex-grow: 1;
+  }
+
+  ul.list-inline.dev-icons {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .dev-icons i {
+    min-height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  li.list-inline-item {
+    width: 33.333%;
+
+    flex-grow: 1;
+  }
+}
+
+@media (max-width: 480px) {
+  li.list-inline-item {
+    display: flex;
+    width: 100%;
+    flex-grow: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #fdfdfd;
+    border: 1px solid #dddddd;
+    margin: 10px !important;
+  }
+
+  .dev-icons i {
+    margin-right: 10px;
+    min-width: 60px;
+  }
+}
+
 @font-face {
   font-family: "Icomoon";
   src: url("../fonts/icomoon.eot"); /* IE9 Compat Modes */
